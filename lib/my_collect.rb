@@ -9,3 +9,13 @@ def my_collect(array)
   collection
 end
 =end
+
+def my_collect
+names = []
+languages = []
+  do |name| name.split(" ").first
+  end
+
+  do |lang| lang.upcase
+  end
+end
