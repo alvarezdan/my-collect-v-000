@@ -10,12 +10,13 @@ def my_collect(array)
 end
 =end
 
-def my_collect
+def my_collect(names)
 names = []
 languages = []
+  my_collect(names)
   do |name| name.split(" ").first
   end
 
-  do |lang| lang.upcase
-  end
+  #do |lang| lang.upcase
+  #end
 end
